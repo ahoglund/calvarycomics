@@ -15,24 +15,34 @@
 
   <body class="<%= page_classes %>">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
   		<div class="container">
   			<div class="navbar-header">
-  				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-  					<span class="sr-only">Toggle navigation</span>
-  					<span class="icon-bar"></span>
-  					<span class="icon-bar"></span>
-  					<span class="icon-bar"></span>
-  				</button>
-  				<a href="home.html" target="_top"><%= image_tag "logo.png", height: 50 %></a>
+  				<a href="index.html"><%= image_tag "logo.png", height: 50 %></a>
   			</div>
   			<div id="navbar" class="collapse navbar-collapse">
   				<ul class="nav navbar-nav">
-  					<li><a href="about.html" target="_top">About the Publisher</a></li>
-  					<li><a href="contact.asp" target="_top">Contact</a></li>
-  					<li><a href="reviews/index.html" target="_top">Reviews/Interviews</a></li>
-  					<li><a href="links.html" target="_top">Links</a></li>
-  					<li><a href="order.html" target="_top">Ordering</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="books.html">Books</a></li>
+                <li><a href="graphic_novels.html">Graphic Novels</a></li>
+                <li><a href="comics_tracts.html">Comics Tracts</a></li>
+                <li><a href="posters.html">Posters</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="about.html">The Publisher</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="interviews.html">Interviews</a></li>
+                <li><a href="reader_comments.html">Reader Comments</a></li>
+              </ul>
+            </li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
   				</ul>
   			</div><!--/.nav-collapse -->
   		</div>
