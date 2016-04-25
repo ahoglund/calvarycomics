@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/publications.html#books">Books</a></li>
+        <li class="active">From Puddle to Paradise?</li>
+      </ol>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h4>From Puddle to Paradise? - <span id="current-image-title">Front Cover</span></h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <hr />
+      <nav>
+        <ul class="pager">
+          <li><a href="" id="previous-button">Prev Page</a></li>
+          <li><a href="" id="next-button">Next Page</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </div>
+    <div class="col-md-9">
+      <hr />
+      <div id="current-image">
+        <img src="/images/publications/puddles/puddle0.jpg" class="img-thumbnail" alt="Calvary Comics"></a>
+      </div>
+    </div>
+  </div>
+</div><!-- /.container -->
+
+<script>
+$(function() {
+  image_numbers = [0,1,2,3,4,5,6,7,8];
+  CalvaryComics.books.init(
+    "/images/publications/puddles/puddle",
+    image_numbers
+  );
+});
+</script>

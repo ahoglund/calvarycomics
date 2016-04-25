@@ -1,0 +1,43 @@
+books:
+  ej_pace:
+    title: E. J. Pace Christian Cartoonist
+    carousel_image: pace.png
+  puddles_to_paradise:
+    title: From Puddle to Paradise?
+    carousel_image: puddles_paradise.png
+graphic_novels:
+  hallelujah:
+    title: Hallelujah
+    carousel_image: hallelujah.png
+    carousel_active: true
+  glory_to_god:
+    title: Glory to God
+    carousel_image: glory_to_god.png
+  soldier_of_the_cross:
+    title: Clendennan Soldier of the Cross
+    carousel_image: soldier_of_the_cross.png
+  marx_lenin_mao_christ:
+    title: Marx Lenin Mao & Christ
+    carousel_image: marx_lenin_mao.png
+  road_to_heaven:
+    title: The Road from Earth to Heaven
+    carousel_image: road_to_heaven.png
+  sadhu_sundar_singh:
+    title: Sandu Sundar Singh
+    carousel_image: sadhu.png
+  zulu_revival:
+    title: Erlo Stegen and the Revival Among the Zulus
+    carousel_image: erlo.png
+comics_tracts:
+  dave_roever:
+    title: The Dave Roever Story
+    carousel_image: dave_rover.png
+  unshackled:
+    title: "'Unshackled!' The True Story of John Hauff"
+    carousel_image: unshackled.png
+posters:
+  the_contrast:
+    title: The Contrast
+    carousel_image: pace_contrast.png
+  road_to_heaven_poster:
+    title: The Road from Heaven to Earth
