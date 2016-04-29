@@ -25,6 +25,20 @@
         </ul>
       </nav>
       <hr />
+      <ul>
+        <% publication.description.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+      </ul>
+      <hr />
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <% publication.paypal_order_details.each do |key, value| %>
+        <input type="hidden" name="<%= key %>" value="<%= value %>">
+      <% end %>
+      <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_addtocart_120x26.png" border="0" name="submit" alt="PayPal">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+      <hr />
     </div>
     <div class="col-md-9">
       <hr />
