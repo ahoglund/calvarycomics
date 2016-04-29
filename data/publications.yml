@@ -14,6 +14,29 @@ books:
       - pace3.jpg
       - pace1.jpg
       - pace2.jpg
+    order_image: pace_cover.jpg
+    description:
+      - "biography"
+      - "art book"
+      - "250 pages black &amp; white"
+      - "color covers"
+      - "perfectbound"
+    pricing_details:
+      - "$19.95 per copy + postage &amp; handling"
+      - "1-5 books, add $4"
+      - "6-10 books, add $6.50"
+      - "11 or more books, add $8"
+    paypal_order_details:
+      add: "1"
+      cmd: "_cart"
+      business: "calvary_comics@hotmail.com"
+      item_name: "E. J. Pace: Christian Cartoonist"
+      amount: "19.95"
+      no_shipping: "0"
+      no_note: "1"
+      currency_code: "USD"
+      lc: "US"
+      bn: "PP-ShopCartBF"
   puddles_to_paradise:
     title: From Puddle to Paradise?
     carousel_image: puddles_paradise.png
@@ -28,6 +51,20 @@ books:
       - puddle6.jpg
       - puddle7.jpg
       - puddle8.jpg
+    order_image: puddle_cover.jpg
+    description:
+      - "Creation vs. evolution book"
+      - "450 pages"
+      - "black-and-white with color covers"
+      - "perfectbound"
+    pricing_details:
+      - "$29.95 per copy + postage &amp; handling"
+      - "1-9 books, add $4.00"
+      - "10-19 books, add $6.50"
+      - "20 or more books, add $8.00"
+    paypal_order_details:
+      cmd: "_s-xclick"
+      hosted_button_id: ZKABP4B33QBKL
 graphic_novels:
   hallelujah:
     title: Hallelujah
@@ -55,7 +92,9 @@ graphic_novels:
       - "1-9 books, add $4.00"
       - "10-19 books, add $6.50"
       - "20 or more books, add $8.00"
-    paypal_order_id: 3NYE8SEYXKBG2
+    paypal_order_details:
+      cmd: "_s-xclick"
+      hosted_button_id: 3NYE8SEYXKBG2
   glory_to_god:
     title: Glory to God
     carousel_image: glory_to_god.png
@@ -70,6 +109,21 @@ graphic_novels:
       - GtG6.jpg
       - GtG7.jpg
       - GtG8.jpg
+    order_image: glory_to_god_cover.jpg
+    description:
+      - "comics anthology"
+      - "100 pages"
+      - "black-and-white"
+      - "with color covers"
+      - "perfectbound"
+    pricing_details:
+      - "$8.95 per copy + postage &amp; handling"
+      - "1-9 books, add $4.00"
+      - "10-19 books,   add $6.50"
+      - "20 or more books, add $8.00"
+    paypal_order_details:
+      cmd: "_s-xclick"
+      hosted_button_id: 6162743
   soldier_of_the_cross:
     title: Clendennan Soldier of the Cross
     carousel_image: soldier_of_the_cross.png
@@ -82,6 +136,20 @@ graphic_novels:
       - cross04.jpg
       - cross05.jpg
       - cross06.jpg
+    order_image: clendennan_cover.jpg
+    description:
+      - "Graphic novel"
+      - "48 pages"
+      - "Full color"
+      - "Perfectbound"
+    pricing_details:
+      - "$6.95 per copy + postage &amp; handling"
+      - "1-9 books, add $4.00"
+      - "10-19 books, add $6.50"
+      - "20 or more books, add $8.00"
+    paypal_order_details:
+      cmd: "_s-xclick"
+      hosted_button_id: BS33NLBRKM8Y8
   marx_lenin_mao_christ:
     title: Marx Lenin Mao & Christ
     carousel_image: marx_lenin_mao.png
@@ -93,6 +161,20 @@ graphic_novels:
       - mlmC03.jpg
       - mlmC04.jpg
       - mlmC05.jpg
+    order_image: mlmc_cover.jpg
+    description:
+      - "graphic novel"
+      - "48 pages"
+      - "black-and-white with color covers"
+      - "perfectbound"
+    pricing_details:
+      - "$4.95 per copy + postage &amp; handling"
+      - "1-9 books, add $4.00"
+      - "10-19 books, add $6.50"
+      - "20 or more books, add $8.00"
+    paypal_order_details:
+      cmd: "_s-xclick"
+      hosted_button_id: QZ3PDZVMQLH98
   sadhu_sundar_singh:
     title: Sandu Sundar Singh
     carousel_image: sadhu.png
@@ -105,6 +187,27 @@ graphic_novels:
       - sadhu4.jpg
       - sadhu5.jpg
       - sadhu6.jpg
+    order_image: sadhu_cover.jpg
+    description:
+      - "graphic novel"
+      - "48 pages in full color"
+      - "perfectbound"
+    pricing_details:
+      - "$6.95 per copy + postage &amp; handling"
+      - "1-9 books, add $4.00"
+      - "10-19 books, add $6.50"
+      - "20 or more books, add $8.00"
+    paypal_order_details:
+      add: "1"
+      cmd: "_cart"
+      business: "calvary_comics@hotmail.com"
+      item_name: "Sadhu Sundar Singh graphic novel"
+      amount: "6.95"
+      no_shipping: "0"
+      no_note: "1"
+      currency_code: "USD"
+      lc: "US"
+      bn: "PP-ShopCartBF"
   zulu_revival:
     title: Erlo Stegen and the Revival Among the Zulus
     carousel_image: erlo.png
@@ -118,6 +221,27 @@ graphic_novels:
       - zulu04.jpg
       - zulu05.jpg
       - zulu06.jpg
+    order_image: zulu_cover.jpg
+    description:
+      - "graphic novel"
+      - "48 pages in full color"
+      - "perfectbound"
+    pricing_details:
+      - "$6.95 per copy + postage &amp; handling"
+      - "1-9 books, add $4.00"
+      - "10-19 books, add $6.50"
+      - "20 or more books, add $8.00"
+    paypal_order_details:
+      add: "1"
+      cmd: "_cart"
+      business: "calvary_comics@hotmail.com"
+      item_name: "Revival Among the Zulus"
+      amount: "6.95"
+      no_shipping: "0"
+      no_note: "1"
+      currency_code: "USD"
+      lc: "US"
+      bn: "PP-ShopCartBF"
 comics_tracts:
   dave_roever:
     title: The Dave Roever Story
@@ -128,6 +252,21 @@ comics_tracts:
       - roever01.jpg
       - roever02.jpg
       - roever03.jpg
+    order_image: roever_cover.jpg
+    description:
+      - "comics booklet"
+      - "3.5' x 5.75'"
+      - "27 full color comics pages "
+      - "plus cover art"
+      - "saddlestitched"
+    pricing_details:
+      - "$1 each"
+      - "1-9 copies, 50 cents postage"
+      - "10-19 copies, $2 postage"
+      - "20 or more copies, $3 postage"
+    paypal_order_details:
+      cmd: "_s-xclick"
+      hosted_button_id: JTKVW5MF8QK74
   unshackled:
     title: "'Unshackled!' The True Story of John Hauff"
     carousel_image: unshackled.png
@@ -139,6 +278,29 @@ comics_tracts:
       - hauff3.jpg
       - hauff4.jpg
       - hauff5.jpg
+    order_image: unshackled_cover.jpg
+    description:
+      - "comics booklet"
+      - "3' x 5'"
+      - "fifteen black-and-white comics pages"
+      - "plus cover art"
+      - "saddlestitched"
+    pricing_details:
+      - "50 cents each."
+      - "1-9 copies, 50 cents postage"
+      - "10-19 copies, $2 postage"
+      - "20 or more copies, $3 postage"
+    paypal_order_details:
+      add: "1"
+      cmd: "_cart"
+      business: "calvary_comics@hotmail.com"
+      item_name: "Unshackled"
+      amount: "0.50"
+      no_shipping: "0"
+      no_note: "1"
+      currency_code: "USD"
+      lc: "US"
+      bn: "PP-ShopCartBF"
 posters:
   the_contrast:
     title: The Contrast
@@ -146,8 +308,31 @@ posters:
     banner_image: posterlink.jpg
     preview_images:
       - the_contrast.jpg
+    order_image: pace_poster.jpg
+    description:
+      - "11' x 14' on 67# glossy paper stock"
+    pricing_details:
+      - "$2 per poster, plus shipping and handling"
+      - "1-10 posters, add $4"
+      - "11-20 posters, add $6.50"
+      - "21 or more, add $8"
+    paypal_order_details:
+      cmd: "_s-xclick"
+      hosted_button_id: L5RAA2FZZLYWJ
   road_to_heaven:
     title: The Road from Heaven to Earth
     banner_image: Roadlink.jpg
     preview_images:
       - road0.jpg
+    order_image: road_to_heaven_cover.jpg
+    description:
+      - "poster by W. J. Dittmar"
+    pricing_details:
+      - "11' x 15' on 67# glossy paper stock"
+      - "$2 per poster, plus shipping and handling:"
+      - "1-10 posters, add $4"
+      - "11-20 posters, add $6.50"
+      - "21 or more, add $8"
+    paypal_order_details:
+      cmd: "_s-xclick"
+      hosted_button_id: HM8J4S4NZDDV6
