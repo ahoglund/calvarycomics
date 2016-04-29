@@ -9,59 +9,16 @@
   </div>
 </div>
 <div class="container">
-  <a name="books"></a>
-  <h1>Books</h1>
-  <div class="row">
-    <div class="col-md-6">
-      <a href="/publications/ejpace.html" target="_top"><img src="images/banners/pacelink.jpg" class="img-thumbnail" alt="Calvary Comics"></a>
+  <% data.publications.each do |type, publications| %>
+    <a name="<%= type %>"></a>
+    <h1><%= type.split("_").map(&:capitalize).join(" ") %></h1>
+    <div class="row">
+      <div class="col-md-12">
+        <% publications.each do |key, publication| %>
+          <a href="/publications/<%= key %>.html" target="_top"><img src="images/banners/<%= publication.banner_image %>" class="publication-banner img-thumbnail" alt="Calvary Comics"></a>
+        <% end %>
+      </div>
     </div>
-    <div class="col-md-6">
-      <a href="/publications/puddles.html" target="_top"><img src="images/banners/puddlelink.jpg" class="img-thumbnail" alt="Calvary Comics"></a>
-    </div>
-  </div>
-  <hr />
-  <a name="graphic_novels"></a>
-  <h1>Graphic Novels</h1>
-  <div class="row">
-    <div class="col-md-6">
-      <a href="/publications/hallelujah.html" target="_top"><img src="images/banners/hallelujahlink.jpg" class="img-thumbnail" alt="Calvary Comics"></a>
-      <br /><br />
-      <a href="/publications/road.html" target="_top"><img src="images/banners/Roadlink.jpg" class="img-thumbnail" alt="Calvary Comics"></a>
-      <br /><br />
-      <a href="/publications/mlmc.html" target="_top"><img src="images/banners/mlmclink.jpg" class="img-thumbnail" alt="Calvary Comics"></a>
-      <br /><br />
-      <a href="/publications/glory_to_god.html" target="_top"><img src="images/banners/GtGlogo.jpg" class="img-thumbnail" alt="Calvary Comics"></a>
-      <br /><br />
-    </div>
-    <div class="col-md-6">
-      <a href="/publications/sadhu.html" target="_top"><img src="images/banners/sadhucover.gif" class="img-thumbnail" alt="Calvary Comics"></a>
-      <br /><br />
-      <a href="/publications/soldier_of_the_cross.html" target="_top"><img src="images/banners/crosslink.jpg" class="img-thumbnail" alt="Calvary Comics"></a>
-      <br /><br />
-      <a href="/publications/zulu.html" target="_top"><img src="images/banners/zululogo.jpg" class="img-thumbnail" alt="Calvary Comics"></a>
-      <br /><br />
-    </div>
-  </div>
-  <hr />
-  <a name="comics_tracts"></a>
-  <h1>Comics Tracts</h1>
-  <div class="row">
-    <div class="col-md-6">
-      <a href="comics/Roever/index.html" target="_top"><img src="images/banners/roeverlink.jpg" class="img-thumbnail" alt="Calvary Comics"></a>
-    </div>
-    <div class="col-md-6">
-      <a href="comics/unshackled/index.html" target="_top"><img src="images/banners/haufflogo.jpg" class="img-thumbnail" alt="Calvary Comics"></a>
-    </div>
-  </div>
-  <hr />
-  <a name="posters"></a>
-  <h1>Posters</h1>
-  <div class="row">
-    <div class="col-md-6">
-      <a href="comics/ejpace/poster.html" target="_top"><img src="images/banners/posterlink.jpg" width="508" height="141" class="img-thumbnail" alt="Calvary Comics"></a>
-    </div>
-    <div class="col-md-6">
-      <a href="comics/Road/index.html" target="_top"><img src="images/banners/Roadlink.jpg" class="img-thumbnail" alt="Calvary Comics"></a>
-    </div>
-  </div>
+    <hr />
+  <% end %>
 </div>

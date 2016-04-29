@@ -16,11 +16,17 @@ page '/*.txt', layout: false
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
-# data.publications.each do |k,v|
-#   v.each do |k1,v1|
-#     proxy "/publications/#{k}.html", "/publications/template.html", :locals => { :publication => v1 }
-#   end
-# end
+data.publications.each do |type, publications|
+  publications.each do |key, publication|
+    proxy "/publications/#{key}.html",
+          "/publications/template.html",
+          locals: {
+            publication: publication,
+            type:        type,
+            key:         key
+          }
+  end
+end
 # General configuration
 
 ###

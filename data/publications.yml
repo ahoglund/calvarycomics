@@ -2,42 +2,152 @@ books:
   ej_pace:
     title: E. J. Pace Christian Cartoonist
     carousel_image: pace.png
+    banner_image: pacelink.jpg
+    preview_images:
+      - pace0.jpg
+      - pace4.jpg
+      - pace5.jpg
+      - pace6.jpg
+      - pace7.jpg
+      - pace9.jpg
+      - pace8.jpg
+      - pace3.jpg
+      - pace1.jpg
+      - pace2.jpg
   puddles_to_paradise:
     title: From Puddle to Paradise?
     carousel_image: puddles_paradise.png
+    banner_image: puddlelink.jpg
+    preview_images:
+      - puddle0.jpg
+      - puddle1.jpg
+      - puddle2.jpg
+      - puddle3.jpg
+      - puddle4.jpg
+      - puddle5.jpg
+      - puddle6.jpg
+      - puddle7.jpg
+      - puddle8.jpg
 graphic_novels:
   hallelujah:
     title: Hallelujah
     carousel_image: hallelujah.png
     carousel_active: true
+    banner_image: hallelujahlink.jpg
+    preview_images:
+      - hal0.jpg
+      - hal1.jpg
+      - hal2.jpg
+      - hal3.jpg
+      - hal4.jpg
+      - hal5.jpg
+      - hal6.jpg
+      - hal7.jpg
+      - hal8.jpg
+    order_image: hallelujah_cover.jpg
+    description:
+      - "Comics Anthology"
+      - "80 pages, black-and-white"
+      - "With color covers"
+      - "Perfectbound"
+    pricing_details:
+      - "$8.95 per copy + postage &amp; handling"
+      - "1-9 books, add $4.00"
+      - "10-19 books, add $6.50"
+      - "20 or more books, add $8.00"
+    paypal_order_id: 3NYE8SEYXKBG2
   glory_to_god:
     title: Glory to God
     carousel_image: glory_to_god.png
+    banner_image: GtGlogo.jpg
+    preview_images:
+      - GtG0.jpg
+      - GtG1.jpg
+      - GtG2.jpg
+      - GtG3.jpg
+      - GtG4.jpg
+      - GtG5.jpg
+      - GtG6.jpg
+      - GtG7.jpg
+      - GtG8.jpg
   soldier_of_the_cross:
     title: Clendennan Soldier of the Cross
     carousel_image: soldier_of_the_cross.png
+    banner_image: crosslink.jpg
+    preview_images:
+      - cross00.jpg
+      - cross01.jpg
+      - cross02.jpg
+      - cross03.jpg
+      - cross04.jpg
+      - cross05.jpg
+      - cross06.jpg
   marx_lenin_mao_christ:
     title: Marx Lenin Mao & Christ
     carousel_image: marx_lenin_mao.png
-  road_to_heaven:
-    title: The Road from Earth to Heaven
-    carousel_image: road_to_heaven.png
+    banner_image: mlmclink.jpg
+    preview_images:
+      - mlmC00.jpg
+      - mlmC01.jpg
+      - mlmC02.jpg
+      - mlmC03.jpg
+      - mlmC04.jpg
+      - mlmC05.jpg
   sadhu_sundar_singh:
     title: Sandu Sundar Singh
     carousel_image: sadhu.png
+    banner_image: sadhucover.gif
+    preview_images:
+      - sadhu0.jpg
+      - sadhu1.jpg
+      - sadhu2.jpg
+      - sadhu3.jpg
+      - sadhu4.jpg
+      - sadhu5.jpg
+      - sadhu6.jpg
   zulu_revival:
     title: Erlo Stegen and the Revival Among the Zulus
     carousel_image: erlo.png
+    banner_image: zululogo.jpg
+    preview_images:
+      - zulu00.jpg
+      - zuluforward.jpg
+      - zulu01.jpg
+      - zulu02.jpg
+      - zulu03.jpg
+      - zulu04.jpg
+      - zulu05.jpg
+      - zulu06.jpg
 comics_tracts:
   dave_roever:
     title: The Dave Roever Story
     carousel_image: dave_rover.png
+    banner_image: roeverlink.jpg
+    preview_images:
+      - roever00.jpg
+      - roever01.jpg
+      - roever02.jpg
+      - roever03.jpg
   unshackled:
     title: "'Unshackled!' The True Story of John Hauff"
     carousel_image: unshackled.png
+    banner_image: haufflogo.jpg
+    preview_images:
+      - hauff0.jpg
+      - hauff1.jpg
+      - hauff2.jpg
+      - hauff3.jpg
+      - hauff4.jpg
+      - hauff5.jpg
 posters:
   the_contrast:
     title: The Contrast
     carousel_image: pace_contrast.png
-  road_to_heaven_poster:
+    banner_image: posterlink.jpg
+    preview_images:
+      - the_contrast.jpg
+  road_to_heaven:
     title: The Road from Heaven to Earth
+    banner_image: Roadlink.jpg
+    preview_images:
+      - road0.jpg
