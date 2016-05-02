@@ -24,7 +24,7 @@ data.publications.each do |type, publications|
             publication: publication,
             type:        type,
             key:         key
-          }
+          }, :ignore => true
   end
 end
 # General configuration
