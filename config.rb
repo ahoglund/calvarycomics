@@ -27,6 +27,17 @@ data.publications.each do |type, publications|
           }, :ignore => true
   end
 end
+
+data.reviews.each do |key, reviews|
+  reviews.each_with_index do |review, index|
+    proxy "/review#{(index + 1).to_s.rjust(2, '0')}.html",
+          "/reviews/template.html",
+          locals: {
+            review_image: "images/reviews/#{review}",
+            review_number: (index + 1).to_s.rjust(2, '0')
+          }, :ignore => true
+  end
+end
 # General configuration
 
 ###

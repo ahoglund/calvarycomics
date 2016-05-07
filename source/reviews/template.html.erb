@@ -1,0 +1,32 @@
+---
+title: Review <%= review_image %>
+---
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="/index.html">Home</a></li>
+        <li>Reviews</li>
+        <li><%= review_number %></li>
+      </ol>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <% data.reviews.each do |key, reviews| %>
+        <ul class="list-group">
+          <% reviews.each_with_index do |review, index| %>
+            <li class="list-group-item">
+              <%= link_to "Review #{(index + 1).to_s.rjust(2, '0')}", "/review#{(index + 1).to_s.rjust(2, '0')}.html" %>
+            </li>
+          <% end %>
+        </ul>
+      <% end %>
+    </div>
+    <div class="col-md-9">
+      <%= image_tag review_image %>
+    </div>
+  </div>
+</div>
