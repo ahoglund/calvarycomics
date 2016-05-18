@@ -1,0 +1,32 @@
+---
+title: Interviews
+---
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="/index.html">Home</a></li>
+        <li>Interviews</li>
+        <li><%= interview_number %></li>
+      </ol>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <% data.interviews.each do |key, interviews| %>
+        <ul class="list-group">
+          <% interviews.each_with_index do |interview, index| %>
+            <li class="list-group-item">
+              <%= link_to "Interview #{(index + 1).to_s.rjust(2, '0')}", "/interview#{(index + 1).to_s.rjust(2, '0')}.html" %>
+            </li>
+          <% end %>
+        </ul>
+      <% end %>
+    </div>
+    <div class="col-md-9">
+      <%= image_tag interview_image %>
+    </div>
+  </div>
+</div>

@@ -405,6 +405,7 @@ posters:
       hosted_button_id: L5RAA2FZZLYWJ
   road_to_heaven:
     title: The Road from Heaven to Earth
+    carousel_image: road_to_heaven.png
     banner_image: Roadlink.jpg
     preview_images:
       - road0.jpg

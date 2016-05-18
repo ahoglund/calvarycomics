@@ -38,6 +38,17 @@ data.reviews.each do |key, reviews|
           }, :ignore => true
   end
 end
+
+data.interviews.each do |key, interviews|
+  interviews.each_with_index do |interview, index|
+    proxy "/interview#{(index + 1).to_s.rjust(2, '0')}.html",
+          "/interviews/template.html",
+          locals: {
+            interview_image: "images/interviews/#{interview}",
+            interview_number: (index + 1).to_s.rjust(2, '0')
+          }, :ignore => true
+  end
+end
 # General configuration
 
 ###
