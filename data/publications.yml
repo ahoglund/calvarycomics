@@ -5,15 +5,15 @@ books:
     banner_image: pacelink.jpg
     preview_images:
       - pace0.jpg
+      - pace1.jpg
+      - pace2.jpg
+      - pace3.jpg
       - pace4.jpg
       - pace5.jpg
       - pace6.jpg
       - pace7.jpg
-      - pace9.jpg
       - pace8.jpg
-      - pace3.jpg
-      - pace1.jpg
-      - pace2.jpg
+      - pace9.jpg
     order_image: pace_cover.jpg
     description:
       - "biography"
